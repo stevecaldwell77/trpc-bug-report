@@ -2,6 +2,8 @@
 
 This repository is a sample monorepo using PNPM workspaces to reproduce a bug in the `@trpc/server` package.
 
+See https://github.com/trpc/trpc/issues/4287
+
 To re-create the bug, do the following:
 
 ```bash
