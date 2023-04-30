@@ -1,0 +1,13 @@
+{
+  "name": "trpc-bug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "(cd packages/package1 && pnpm build) && (cd packages/package2 && pnpm build)",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "declaration": true,
+    "declarationMap": true,
+    "esModuleInterop": true,
+    "lib": ["es2020", "dom"],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "outDir": "dist",
+    "paths": {
+      "~/*": ["./*"]
+    },
+    "strict": true,
+    "target": "es2020",
+    "types": ["node"]
+  },
+  "include": ["src"]
+}
